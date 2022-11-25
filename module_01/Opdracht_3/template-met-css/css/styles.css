@@ -1,0 +1,10 @@
+
+.boxywoxy {
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    margin: 40px;
+    border-color: red;
+    border-width: 20px;
+    border-style: dashed;
+}
