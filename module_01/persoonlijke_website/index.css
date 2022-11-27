@@ -37,3 +37,11 @@ h2 {
 h3 {
     color: red;
 }
+
+a {
+    color: midnightblue;
+}
+
+a:hover {
+    color: darkgreen;
+}
