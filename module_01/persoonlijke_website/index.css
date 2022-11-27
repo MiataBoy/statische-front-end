@@ -47,3 +47,7 @@ a {
 a:hover {
     color: darkgreen;
 }
+
+nav ul li {
+    display: inline-block;
+}
