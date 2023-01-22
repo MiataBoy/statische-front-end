@@ -1,8 +1,46 @@
-body {
-    background-color: #000000;
+a.nav-link {
+    color: white;
 }
 
-.centering {
-    width: 50%;
+a.nav-link:hover {
+    color: gray;
+}
+
+ul.nav {
+    background: rgb(189,54,38);
+    background: radial-gradient(circle, rgba(189,54,38,1) 0%, rgba(0,0,0,1) 100%);
+    margin-bottom: 50px;
+}
+
+.rounded-fluid {
+    border-radius: 50% !important;
+    border-style: groove;
+    border: black;
+}
+
+div#introduction {
     text-align: center;
+}
+
+h2.subtitle {
+   color: gray;
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 58.75em) {
+    footer {
+        position: unset;
+    }
+}
+
+footer>div#copyright {
+    background: rgb(189,54,38);
+    background: radial-gradient(circle, rgba(189,54,38,1) 0%, rgba(0,0,0,1) 100%);
 }

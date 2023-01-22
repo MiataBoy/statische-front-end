@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
-    font-family: Roboto, sans-serif;
+html {
+    font-family: 'Roboto', sans-serif;
 }
 
-div {
-    margin: 0 auto;
-    width: 950px;
+.center {
+    display: inline-block;
+    justify-content: center;
+    /*margin: 0 auto;*/
+}
+
+p {
+    font-size: 20px;
+    line-height: 26px;
 }
 
 h1 {
@@ -22,24 +28,4 @@ h2 {
 .subtitle {
     font-size: 24px;
     line-height: 32px;
-}
-
-li {
-    padding-bottom: 10px;
-    font-size: 20px;
-    line-height: 26px;
-}
-
-ol > li {
-    padding-bottom: 20px;
-}
-
-.tip {
-    background-color: #def6ed;
-    border-radius: 4px;
-    padding: 25px;
-}
-
-div > div {
-    padding: 20px;
 }
