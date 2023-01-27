@@ -20,6 +20,7 @@ ul.nav {
 
 div#introduction {
     text-align: center;
+    flex: 1;
 }
 
 h2.subtitle {
@@ -28,16 +29,14 @@ h2.subtitle {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    margin-top: 50px;
     width: 100%;
 }
 
-@media only screen and (max-width: 58.75em) {
-    footer {
-        position: unset;
-    }
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 footer>div#copyright {
